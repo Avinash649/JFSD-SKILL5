@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class TableCreation1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		try {//190030061
+		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","jfsd","jfsd123");
 			Statement st = con.createStatement();
